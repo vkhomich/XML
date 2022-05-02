@@ -1,1 +1,17 @@
-
+<bug report>
+   <Project>Приложение для упарвления задачами</Project>
+   <Issue type>Bug</Issue type>
+   <Summary>Добавление и редактирование проекта: успешная валидация при сохранении дубликата записи</Summary>
+   <Severity/Importance>Average</Severity/Importance>
+   <Priority>None</Priority>
+   <Components>Web</Components>
+   <Affect version>1</Affect version>
+   <Fix version>2</Fix version>
+   <Environment>Android 11 RP1A.200720.011</Environment>
+   <Description>
+       <Шаги>1.Перейти на вкладку проект, 2.Нажать на добавление проекта, 3.Создать проект с названием Test1, 4.Повторить шаги 2-3</Шаги>
+       <Фактический результат>Успешная валидация при сохранении дубликата записи</Фактический результат>
+       <Ожидаемый результат>Ошибка валидации при сохранении дубликата записи</Ожидаемый результат>
+   </Description>
+   <Error type>Functional</Error type>
+</bug report>
